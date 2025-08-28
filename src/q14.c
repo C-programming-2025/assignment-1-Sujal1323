@@ -5,7 +5,6 @@ int main(){
     int b;
     printf("enter any two numbers");
     scanf("%d %d",&a,&b);
-    printf("Before swap: a=%d,b=%d",a,b);
     a=a+b;
     b=a-b;
     a=a-b;
